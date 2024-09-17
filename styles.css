@@ -1,0 +1,87 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right, rgb(167, 167, 167), rgb(48, 47, 47));
+}
+
+#centralizar{
+    size: 20vh 20vw;
+}
+
+body h1{
+    text-align: center;
+    padding-top: 20vh;
+    text-shadow: 0.09em 0.1em #b3acac;
+    color: rgb(43, 43, 43);
+    font-size: 20vh 20vw;
+    overflow:auto;
+    padding-bottom: 15px;
+}
+
+div#tabela{
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden; 
+    white-space: nowrap;
+    border-radius: 10px;
+    max-width: 295px;
+    min-width: 295px;
+    border: 1px black solid;
+    color: white;
+    background-color: rgb(99, 99, 99);
+}
+
+
+tr input{
+    min-width: 60px;
+    min-height: 60px;
+    padding: 10px;
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#botaolaranja{
+    background-color: orange;
+}
+
+.laranja{
+    color: orange;
+}
+
+p{
+    width: 260px; 
+    padding-top: 1vh;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: right;
+}
+
+#tela{
+    height: 4vh;
+    padding-right: 11px;
+}
+
+td{
+    border: 0.1vh black solid;
+    border-radius: 1vh;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+
+td:hover{
+    background-color: rgb(54, 54, 54);
+    border-color: white;
+    transition: 0.3s;
+}
+
+td#botaolaranja:hover{
+    background-color: rgb(36, 36, 36);
+    transition: 0.3s;
+}
+
